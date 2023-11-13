@@ -28,24 +28,23 @@ const questions = [
         type: 'list',
         name: 'license',
         choices: ['Apache 2.0', 
-        'Boost Software 1.0', 
+        'Boost 1.0', 
         'BSD 3-Clause', 
-        'Creative Commons', 
-        'Eclipse', 
+        'The Unlicense', 
         'GNU GPL v3', 
         'IBM', 
-        'MIT', 
-        'Mozilla Public 2.0']
+        'MIT',
+        ]
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contributors',
         message: 'Provide information for any contributors to your project:'
     },
     {
         type: 'input',
-        name: 'tests',
-        message: 'Provide any testing information for your project'
+        name: 'Tests',
+        message: 'Please provide your testing information:'
     },
     {
         type: 'input',
